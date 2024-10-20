@@ -52,10 +52,10 @@ export default function Calculator() {
 
   return (
     <>
-      <div className="relative lg:h-screen flex justify-center items-center bg-gradient-to-tr from-gray-900 to-black text-white">
-        <div className=" relative w-full  lg:w-1/4 bg-gray-800 lg:p-4 p-2 lg:rounded-lg shadow-lg">
+      <div className="relative h-screen p-4 lg:p-0 flex justify-center items-center bg-gradient-to-tr from-gray-900 to-black text-white">
+        <div className=" relative w-full  lg:w-1/4 bg-gray-800 lg:p-4 p-3 lg:rounded-lg shadow-lg rounded-lg">
           {/* Display */}
-          <div className="lg:mb-4  bg-gray-950 text-right w-full flex-wrap overflow-hidden  flex justify-between items-center lg:mt-0 mt-4 text-xl px-2  rounded-md">
+          <div className="lg:mb-4  bg-gray-950 text-right w-full flex-wrap overflow-hidden   flex justify-between items-center lg:mt-0 mt-4 text-xl px-4  rounded-lg">
             {display || "0"}
             <div
               className="hover:cursor-pointer text-sm my-1 hover:bg-gray-900 hover:rounded-full p-2"
